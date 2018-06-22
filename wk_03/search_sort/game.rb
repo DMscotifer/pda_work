@@ -5,10 +5,10 @@ class Game
     @genre = genre
   end
 
-  def find_game_by_name(drink_choice)
-    for drink in drinks
-      if drink.name == drink_choice
-        return drink.name
+  def find_game_by_name(gameChoice)
+    for game in games
+      if game.name == gameChoice
+        return game.name
       end
       return nil
     end
