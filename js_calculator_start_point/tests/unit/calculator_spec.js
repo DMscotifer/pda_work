@@ -35,19 +35,6 @@ describe('calculator', function () {
     assert.equal(calculator.runningTotal, 3)
   })
 
-  xit('can recognise a click on number button', function() {
-
-
-  })
-
-  xit('can click mathematical operator buttons', function() {
-
-  })
-
-  xit('can clear running total on clicking clear button', function() {
-
-  })
-
   it('should return NaN when dividing by zero', function() {
     calculator.numberClick(1);
     calculator.numberClick(0);
